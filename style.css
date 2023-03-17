@@ -1,0 +1,30 @@
+main{
+    margin: auto;
+    max-width: 800px;
+    background-color: white;
+}
+
+body{
+    background-color: bisque;
+}
+
+img{
+    width: 100%;
+    border-style: groove;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+    grid-gap: 15px;
+}
+
+
